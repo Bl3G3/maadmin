@@ -1,0 +1,21 @@
+.selectionDiv{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.inputField{
+    margin-right: 20px;
+}
+
+.pure-table{
+    margin-top: 20px;
+    display: table;
+}
+tr:hover { background-color : #89ae37; }
+
+.search-button{
+    margin-left: 30px;
+}
+
+.fixed-table{
+    position: absolute;
+}
