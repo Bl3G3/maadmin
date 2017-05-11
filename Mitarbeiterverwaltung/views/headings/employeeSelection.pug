@@ -44,47 +44,15 @@ block employeeSelection
 
                         each mitarbeiter in malist
                             tr
-                              td #{mitarbeiter.mitarbeiternummer}
-                              td #{mitarbeiter.vorname}
-                              td #{mitarbeiter.name}
-                              td #{mitarbeiter.telefon}
-                              td #{mitarbeiter.email}
-                              td #{mitarbeiter.abteilung}
-                              td.hidden #{mitarbeiter.rechte}
+                              td #{employee.employee_no}
+                              td #{employee.first_name}
+                              td #{employee.last_name}
+                              td #{employee.phone}
+                              td #{employee.mail}
+                              td #{employee.department}
+                              td.hidden #{employee.rights}
                               td
-                                a.pure-button(onclick="selectEmployee('" + mitarbeiter.mitarbeiternummer + "', " +
-                                                                    "'" + mitarbeiter.vorname + "', " +
-                                                                    "'" + mitarbeiter.name + "'," +
-                                                                    "'" + mitarbeiter.telefon + "'," +
-                                                                    "'" + mitarbeiter.email + "'," +
-                                                                    "'" + mitarbeiter.abteilung + "'," +
-                                                                    "'" + mitarbeiter.rechte + "'," +
-
-                              ")")
-
-//(onclick="selectEmployee('" + mitarbeiter.id + "', '" + mitarbeiter.vorname + "', '" + mitarbeiter.nachname + "')")
-
-                    //tr(onclick="selectEmployee('" + ma.id + "', '" + ma.vorname + "', '" + ma.nachname + "')")
-                    //    td 2
-                    //    td vorname1
-                    //    td nachname1
-                    //    td 1234
-                    //    td vorname.nachname@irgendwas.com
-                    //    td Personal
-                    //tr(onclick="selectEmployee('" + ma.id + "', '" + ma.vorname + "', '" + ma.nachname + "')")
-                    //    td 3
-                    //    td vorname1
-                    //    td nachname1
-                    //    td 1234
-                    //    td vorname.nachname@irgendwas.com
-                    //    td Personal
-                    //tr(onclick="selectEmployee('" + ma.id + "', '" + ma.vorname + "', '" + ma.nachname + "')")
-                    //  td 4
-                    //  td vorname1
-                    //  td nachname1
-                    //  td 1234
-                    //  td vorname.nachname@irgendwas.com
-                    //  td Personal
+                                a.pure-button
 
 
 
